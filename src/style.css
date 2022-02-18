@@ -15,7 +15,7 @@ h2 {
   background-color: var(--branding-color);
   color: white;
   text-align: center;
-  padding: 120px 0;
+  padding: 120px 12px;
 }
 .btn-branding {
   background-color: white;
