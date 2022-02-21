@@ -54,10 +54,10 @@ h2 {
 }
 .about-hero .myphoto {
   margin-top: 60px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .project-container {
-  padding: 80px 0;
+  padding: 70px 0;
   font-family: "Poppins", sans-serif;
 }
 .project-container h3 {
