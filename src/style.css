@@ -15,7 +15,7 @@ h2 {
   background-color: var(--branding-color);
   color: white;
   text-align: center;
-  padding: 120px 12px;
+  padding: 120px 0;
 }
 .btn-branding {
   background-color: white;
@@ -37,9 +37,29 @@ h2 {
   padding: 5px 10px;
   margin: 30px auto;
 }
+.about-hero {
+  padding: 120px 0;
+}
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-hero h3 {
+  font-size: 18px;
+  font-family: var(--branding-color);
+  font-weight: bold;
+}
+.about-content {
+  margin: 30px;
+}
+.about-hero .myphoto {
+  margin-top: 60px;
+  border-radius: 10px;
+}
 p {
   font-size: 16px;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -50,5 +70,12 @@ p {
   }
   .hero {
     padding: 60px 0;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 0;
+  }
+  .about-hero h1 {
+    font-size: 50px;
   }
 }
