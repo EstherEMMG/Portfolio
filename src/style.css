@@ -11,6 +11,9 @@ h1 {
 h2 {
   font-size: 40px;
 }
+h4 {
+  font-size: 35px;
+}
 .hero {
   background-color: var(--branding-color);
   color: white;
@@ -36,6 +39,10 @@ h2 {
   font-weight: bold;
   padding: 5px 10px;
   margin: 30px auto;
+  transition: all 150ms ease-in-out;
+}
+.btn-branding-outline:hover {
+  color: white;
 }
 .about-hero {
   padding: 70px 0;
@@ -70,10 +77,51 @@ h2 {
 p {
   font-size: 16px;
 }
+footer .contact-box p {
+  margin: 0;
+}
+footer .contact-box {
+  padding: 20px 80px;
+  border-radius: 10px;
+  background-color: var(--branding-color);
+  color: white;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 20px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: black;
+}
+footer .social-links a {
+  color: var(--branding-color);
+  margin: 0 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 10px 14px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  footer .contact-box {
+    padding: 5px 50px;
+  }
+  footer .contact-box p {
+    font-size: 14px;
   }
   .project-description {
     padding: 0;
